@@ -1,0 +1,134 @@
+.itmain{
+    /* background-image: url('../assets/scope.jpg'); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bb{
+    border-bottom: 1px solid white;
+}
+.initm{
+    padding-top: 70px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    min-height: 1000px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ititemscontainer{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.ititem{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 33.33%;
+    width: calc(33.33% - ( ( 4% + 4% ) * 0.3333 ) );
+    float: left;
+}
+.itmr{
+    margin-right: 4%;
+}
+.iteminnerset{
+    background-color: #e8f0f4;
+    padding: 0px 0px 0px 0px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    display: block;
+
+}
+.ititemhead{
+    margin-top: 0px;
+    margin-bottom: 31px;
+    background: #fff;
+    height: 100px;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.ititemhead h4{
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+
+}
+.ititempara{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 15px 0px 15px;
+    height: 150px;
+    display: block;
+    align-items: center;
+    margin: 0 0 31px;
+    overflow: hidden;
+    padding-bottom: 50px;    
+}
+.ititempara h5{
+    font-weight: lighter;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 0px;
+
+}
+.itinnnermsg{
+    margin: 0 30px 20px 30px;
+    float: none;
+    clear: both;
+    background-color: #ff9800;
+    padding: 30px 10px 30px 10px;
+    opacity: 0.9;
+}
+.itinnnermsg h3{
+    text-align: center;
+    font-family: 'Raleway';
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+    font-size: 30px;
+}
+.raffairslowerbg{
+    background-image: url('../assets/regulatorylower.jpeg');
+}
+.clinicaldevlower{
+    background-image: url('../assets/clinicaldevelopmentlower.jpeg');
+}
+.itlowerbg{
+    background-image: url('../assets/itlowerbg.jpeg');
+}
+.sourcinglowerbg{
+    background-image: url('../assets/sourcinglower.jpg');
+}
+
+
+
+@media(max-width:990px) {
+    .itmr{
+        margin: 0px;
+    }
+    .ititem {
+        width: 100%;
+        clear: left;
+    }
+    .itminreshieght{
+        min-height: 3000px;
+    }
+}

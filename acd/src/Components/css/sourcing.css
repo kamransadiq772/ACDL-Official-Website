@@ -1,0 +1,28 @@
+.sourcingpara{
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.5em;
+    text-align: left;
+    padding: 0px 15px 0px 20px;
+}
+.importantnew{
+    width: 100% !important;
+}
+.pstrongins{
+    margin-bottom: 20px;
+}
+.minsourcingheight{
+    min-height: 2300px !important;
+}
+.sourcingparalastpb{
+    padding-bottom: 40px;
+}
+
+@media(max-width:990px) {
+    .itemmrbtmofsourcing{
+        margin-bottom: 30px;
+    }
+    .sourcingresminheight{
+        min-height: 7100px;
+    }
+}

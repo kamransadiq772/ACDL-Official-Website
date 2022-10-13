@@ -1,0 +1,73 @@
+.raffairsfirst{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: #e8f0f4;
+    opacity: 0.9;
+    padding: 20px 30px;
+}
+.raffairsinnerp{
+    text-align: center;
+    /* font-family: 'Raleway'; */
+    font-size: 20px;
+    color: #333333;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.ulinnerra{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: calc(33.33% - ( ( 4% + 4% ) * 0.3333 ) );
+    float: left;
+}
+.ulinnerrainnder{
+    background-color: #e8f0f4;
+    padding: 30px 15px 0px 15px;
+    opacity: 0.9;
+    height: 320px;
+    display: block;
+}
+.ulinnerrainnder ul li{
+    font-size: 19px;
+    color: #333333;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.minheightar{
+    min-height: 800px !important;
+}
+.lowerrfbg{
+    background-image: url(../assets/regulatoryupper.jpeg);
+}
+@media(max-width:990px) {
+    .bb h1{
+        line-height: normal;
+        font-size: 30px;
+        padding-top: 100px;
+    }
+    .raffairsfirst{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .raffairsfirst p{
+        font-size: 18px;
+    }
+    .itinnnermsg{
+        margin: 0 10px 20px 10px;        
+        padding: 25px 10px 25px 10px;
+    }
+    .itinnnermsg h3{
+        font-size: 25px;
+        line-height: 2.5rem;
+    }
+    .ulinnerra{
+        clear: left;
+        width: 100% !important;
+        margin-left: 0px;
+    }
+    .ulinnerrainnder{
+        height: 480px;
+    }
+    .minheightar{
+        min-height: 2650px !important;
+    }
+}

@@ -1,0 +1,209 @@
+.drugcontent{
+    background-color: rgba(255,255,255,0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    /* max-width: 1200px;
+    margin: auto; */
+    min-height: 1650px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.divleft{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: calc(25% - ( ( 4% ) * 0.25 ) );
+    margin-right: 4%;
+    position: relative;
+    float: left;
+    clear: left;
+}
+.divleftin{
+    padding: 0px 0px 0px 0px;
+    min-height: 100%;
+    display: block;
+}
+.innerul{
+    text-align: left;
+    padding-left: 0px;
+}
+.innerul li {
+    border-bottom: 1px solid #33333447 !important;
+    display: block;
+}
+.innerul li a{
+    padding-left: 0 !important;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;    
+    font-size: 12px !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: black;
+}
+.innerul li a:hover{
+    color: #e8890d;
+}
+.engin{
+    font-size: 16px !important;
+    transition: all ease 0.5s;
+}
+.arrowin{
+    padding-right: 0;
+    width: 40px;
+    text-align: center;
+    padding-left: 40px;
+    display: inline-block;
+    /* display: none; */
+    vertical-align: middle;
+    font-size: 16px !important;
+    cursor: pointer;
+    padding-top: 15px;
+}
+.subul{
+    margin-left: 30px !important;
+    display: none;
+    padding-left: 0px;
+    transition: all ease 0.5s;
+}
+.subul li{
+    border-bottom: 1px solid #33333447 !important;
+    display: block;
+    
+
+}
+.subul li a{
+    font-size: 16px !important;
+}
+
+.subsubitemin{
+    display: block;
+}
+.subsubitemin a{
+    font-size: 25px;
+    display: inline;
+}
+
+.divright{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: calc(75% - ( ( 4% ) * 0.75 ) );
+    position: relative;
+    float: left;
+    min-height: 1px;
+}
+.righthead{
+    margin-top: 0px;
+    margin-bottom: 31px;
+    display: block;
+    flex-wrap: nowrap;
+}
+.righthead h2{
+    font-size: 45px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    padding: 0;
+    text-align: left;
+    color: #333333;
+}
+.subrighthead{
+    margin-top: 0px;
+    margin-bottom: 31px;
+    display: block;
+    align-items: center;
+}
+.subrighthead{
+    color: #333333;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+.rightinnerdata{
+
+}
+.rightfirstpara{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.rightfirstul{
+    text-align: left;
+}
+.rightfirstul li{
+    font-size: 22px;}
+.rightbtnout{
+    padding: 20px;
+    text-align: right;
+    direction: rtl;
+    margin-bottom: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rightbtnin a{
+  
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway';
+}
+.rightbtnin{
+    width: 150px;
+    height: 45px;
+    background-color: #e8890d;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 20px;
+    box-shadow: 0 4px 2px -2px grey;
+}
+.inliningarrows{
+    display: flex;
+}
+
+@media(max-width:990px) {
+    .drugcontent{
+        min-height: 5500px;
+    }
+
+    .upperheaderindrug h1{
+        font-size: 30px;
+        line-height: normal;
+        padding-top: 100px;
+    }
+    .drugcontent{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .divleft{
+        display: block;
+        clear: left;
+        width: 100%;
+        margin: auto;
+    }
+    .divright{
+        display: block;
+        clear: left;
+        width: 100%;
+        margin: auto;
+    }
+    .righthead h2{
+        font-size: 30px;
+    }
+    .subrighthead h3{
+        font-size: 20px;
+    }
+}
+

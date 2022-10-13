@@ -1,0 +1,129 @@
+.jc{
+    
+    width: 28%;
+    padding: 0px 15px!important;
+    height: 190px;
+    background-color: #deeff4a1;
+    border-radius: 10px !important;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%) !important;
+    margin-right: 1.2%;
+    margin-left: 1.2%;
+    margin-bottom: 25px;
+}
+.jcin{
+    width: max-content;
+    height: 100%;
+    text-decoration: none;
+    font-size: large;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.jcinin{
+    display: block;
+}
+.jchead{
+    font-family: 'Raleway';
+    padding-top: 18px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    color: #5f5e5e;
+    font-size: 18px;
+    line-height: 1.1;
+}
+.jcdown{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.jcdownleft{
+    flex-direction: column-reverse;
+    width: 50%;
+    display: block;
+    font-size: 15px;
+    color: #333333;
+}
+.jcdownright{
+    display: block;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%) !important;
+    border-radius: 5px;
+    background-color: #e99c35;
+    line-height: 40px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.jccont{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #e99c35; */
+    height: 50px;
+    margin: 10px auto;
+    max-width: 1200px;
+}
+.paginationul{
+    list-style: none;
+    display: flex;
+    width: max-content;
+    height: max-content;
+    padding: 0px !important;
+}
+.paginationli{
+    border: 1px solid #b3b3b3;
+    cursor: pointer;
+    padding: 15px 0px;
+}
+.paginationli:hover{
+    background-color: #d1d0d0 ;
+}
+.paginationli a{ 
+    text-decoration: none;
+    color: #333333;
+    padding: 15px 40px;
+}
+.tagbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tagbar input{
+    padding: 20px;
+}
+
+@media(max-width:990px) {
+
+    .jccont{
+        flex-direction: column;
+    }
+    .jc{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .jcdownright{
+        font-size: 13px;
+    }
+
+}

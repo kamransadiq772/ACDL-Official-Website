@@ -1,0 +1,199 @@
+.cobe{
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+.contactforminmaxwith{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex{
+    
+    display: flex;
+
+  }
+  .lfl{
+    width: calc(50% - ( ( 3% ) * 0.5 ) );
+    margin-right: 3%;
+    /* margin: 0 auto; */
+
+  }
+  .inputcon{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .inputcon h4{
+    display: block;
+    font-family: 'Raleway';
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 18px;
+    color: #333333;
+   }
+  .inputcon input{
+    height: 40px;
+    width: 100%;
+    border: 1px;
+    border: 1px solid lightgray;
+    display: block;
+    font-size: 18px;
+  }
+  .rfl{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: calc(50% - ( ( 4% ) * 0.5 ) );
+    padding-left: 20px;
+  }
+  .ricon{
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+  }
+  .rline{
+      display: flex;
+      text-decoration: none;
+      color: #333333;
+      margin-bottom: 38px;
+  }
+  .rline:hover{
+      color: #e99c35;
+      cursor: pointer;
+  }
+  .iconstyle{
+    border-color: #333333;
+    border-width: 0px;
+    background-color: #e99c35;
+    box-sizing: content-box;
+    height: 60px;
+    width: 60px;
+    line-height: 65px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+  }
+  .sideicon{
+      font-family: 'Raleway';
+      margin-top: 10px;
+      /* line-height: 60px; */
+      padding-left: 20px;
+      /* color: #333333; */
+      font-size: 18px;
+  }
+  .txtarea{
+      width: 80%;
+      margin: auto;
+  }
+  .textarea{
+    height: 300px;
+    width: 100%;
+    border: 1px;
+    border: 1px solid lightgray;
+    display: block;
+    font-size: 18px;
+  }
+.actioncon{
+    width: 1200px;
+    text-align: center;
+}
+.gabtn{
+    cursor: pointer;
+    font-family: "Raleway";
+    line-height: 17px;
+    outline: 0;
+    border: none;
+    text-transform: uppercase;
+    background: #e99c35 !IMPORTANT;
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 10px 10px !IMPORTANT;
+    height: 60px !important;
+    border-radius: 60px !important;
+    width: 200px !IMPORTANT;
+    margin-right: auto !Important;
+    margin-left: auto !Important;
+    font-weight: bold !important;
+    margin-top: 25px !important;
+    display: block;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%) !important;
+
+}
+.cmap{
+    margin-top: 40px;
+    padding: 0px;
+}
+
+
+
+
+@media(max-width:990px) {
+  .cobe{
+    padding: 10px;
+    width: 93%;
+    margin: auto;
+  }
+
+  .flex {
+    flex-direction: column-reverse;
+  }
+  .rfl{
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 60px;
+  }
+  .rline{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  .iconstyle{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    line-height: 110px;
+    font-size: 50px;
+  }
+  .sideicon{
+    font-family: inherit;
+    width: 70% !important;
+    padding-left: 0px;
+    color: #747474;
+    text-align: center;
+    font-weight: 470;
+    line-height: 1.5;
+    font-size: 19px;
+  }
+  .lfl{
+    width: 100%;
+  }
+  .inputcon h4{
+    display: none;
+  }
+  .inputcon input{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    border: 1px solid #ebe8e8;
+  }
+  .inputcon textarea{
+    width: 92% ;
+    margin: auto;
+    font-family: inherit;
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    border: 1px solid #ebe8e8;
+  }
+  .actioncon{
+    width: 100%;
+  }
+}

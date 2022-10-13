@@ -1,0 +1,137 @@
+.ejouter {
+    max-width: 1200px;
+    margin: 30px auto;
+    /* background-color: aqua; */
+}
+
+.ejionner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cjcard{
+    width: 25%;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%) !important;
+    height: max-content;
+    margin: 20px;
+    /* max-height: 160px;
+    min-height: 160px; */
+}
+.cjcardtitle{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.cjcardedit{
+   float: right;
+   margin: 5px;
+   padding: 5px;
+   background-color: #e99c35;
+   color: antiquewhite;
+   font-weight: 600;
+   font-size: 18px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.cjcarddelete{
+    /* float: right; */
+    background-color: red !important;
+}
+.cjcardlocation{
+    font-size: 12px;
+    float: left;
+}
+.model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden ;
+    opacity: 0 ;
+    transition: visibility 0s, opacity 0.5s;
+    z-index: 5000;
+}
+.activemodel{
+    visibility: visible;
+    opacity: 1;
+}
+.model input{
+ padding: 5px;
+}
+.modelinner{
+    position: relative;
+    background-color: white;
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    overflow: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 10px;
+}
+.modelbtn{
+    margin-top: 5px;
+    background-color: #8b6666;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.modelclose{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+.formofedtprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formofedtprofile label{
+    margin: 5px;
+}
+.formofedtprofile input{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #b1b0b0;
+    border-radius: 10px;
+}
+.formofedtprofile p{
+    background-color: #e99c35;
+    border: 1px solid #b1b0b0;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media(max-width:990px){
+    .ejionner{
+        flex-direction: column;
+    }
+    .cjcard{
+        width: auto;
+    }
+    .modelinner{
+        width: auto;
+        height: 90vh;
+    }
+}

@@ -1,0 +1,310 @@
+.header {
+    /* max-width: 1366px; */
+    height: 65px;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 1px 1px 3px rgb(216, 232, 238);
+    /* padding: 0px 30px; */
+    background-color: #fff;
+    z-index: 40;
+  
+}
+
+
+
+.headerin {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.imagecontainer {
+    padding-left: 20px;
+    display: block;
+    float: left;
+    max-width: 100%;
+    zoom: 1;
+    margin-left: 0px;
+    height: 100%;
+}
+
+.anchorimg {
+    display: block;
+    max-width: 100%;
+
+}
+
+.image {
+    height: 55px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu {
+    float: right;
+    height: 65px;
+}
+
+.menu ul {
+    display: block;
+    height: 100%;
+    margin: 0px;
+}
+
+.navul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.navul li a:hover {
+    color: #e99c35;
+    ;
+    border-top: 3px solid #e99c35;
+}
+
+.linav {
+    padding-right: 35px;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    float: left;
+}
+
+.anli {
+    border-top: 3px solid transparent;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 62px;
+    height: 61px;
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(65, 62, 62);
+}
+
+.navspan {
+    margin: 0;
+    padding: 0;
+    line-height: 62px;
+}
+
+.active {
+    border-top: 3px solid #e99c35;
+    ;
+    color: #e99c35 !important;
+}
+
+.navbtn {
+    padding-right: 0px;
+    float: left;
+    margin-right: 20px;
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.btnspan {
+    line-height: 70px;
+    background-color: #e99c35;
+    ;
+    color: rgb(247, 243, 243);
+    font-size: smaller;
+    padding: 6px 20px 10px 20px;
+    box-shadow: 0 4px 2px -2px gray;
+
+}
+
+.aboutddin {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 250px;
+    border-top: 3px solid #e99c35;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 1.5;
+    position: absolute;
+    padding-left: 0px;
+    left: 0;
+    /* visibility: visible; */
+    opacity: 0.8;
+    z-index: 1;
+    transition: opacity .2s ease-in;
+    list-style-type: none;
+}
+
+.aboutddin li a {
+    color: #fff !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1.5px solid white;
+    padding: 10px 20px;
+    line-height: 19px;
+    text-indent: 0;
+    height: max-content;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out, height 0s, line-height 0s;
+    display: block;
+    box-sizing: content-box;
+    text-decoration: none;
+}
+
+.ddhiden {
+    visibility: hidden;
+}
+
+.ddaheight {
+    min-height: 160px;
+}
+
+.ddsheight {
+    min-height: 203px;
+}
+
+#aboutdivof:hover>#aboutdd {
+    visibility: visible;
+}
+
+#serdivof:hover>#serdd {
+    visibility: visible;
+}
+
+#jobdivof:hover>#jobdd {
+    visibility: visible;
+}
+
+
+.sidethreelines {
+    float: right;
+    width: 0px;
+    height: 100%;
+    display: none;
+    align-items: center;
+    line-height: 70px;
+}
+
+.aboutside {
+    display: none;
+}
+
+
+@media(max-width:990px) {
+    .header {
+        padding: 0px;
+        width: 100% !important;
+        height: max-content;
+        position: absolute;
+    }
+    .image {
+        height: 55px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .menu {
+        width: 100%;
+        height: max-content;
+        display: none;
+    }
+
+    .menu ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu ul li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #d4d1d1;
+        display: block;
+        padding-right: 0px !important;
+        height: 40px;
+    }
+
+    .menu ul li a {
+        line-height: 40px;
+    }
+
+    .menu ul li a span {
+        line-height: 40px;
+    }
+
+    .sidethreelines {
+        width: 30px;
+        display: block;
+    }
+
+    .active {
+        border: none !important;
+        border-top: none !important;
+    }
+
+    .navbtn {
+        margin: 0px;
+        line-height: 40px;
+        border: none !important;
+    }
+
+    .btnspan {
+        line-height: 0 !important;
+    }
+
+    .aboutside {
+        display: inline;
+        float: right;
+        line-height: 40px;
+    }
+
+    .aboutddin {
+        display: none;
+    }
+
+    #aboutdivof:hover>#aboutdd {
+        visibility: hidden;
+    }
+
+    #serdivof:hover>#serdd {
+        visibility: hidden;
+    }
+
+    .aboutddin {
+        width: 100%;
+        border-top: none !important;
+        font-family: "Open Sans";
+        font-weight: 400;
+        position: relative !important;
+        padding-left: 0px;
+        left: 0;
+        visibility: hidden;
+        line-height: 19px !important;
+        opacity: 1;
+        z-index: 1;
+        transition: opacity .2s ease-in;
+        list-style-type: none;
+        background-color: #333;
+    }
+
+    .aboutddin li a {
+        line-height: 19px !important;
+    }
+
+    .aboutddin.active {
+        border: none !important;
+    }
+
+    
+}

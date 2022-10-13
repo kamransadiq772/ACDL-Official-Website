@@ -1,0 +1,67 @@
+.card1{
+    color: red;
+    /* margin-top: 90px; */
+    width: 367px;
+    height: 350px;
+    display: inline-block;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* margin-left: 50px; */
+    border-radius: 20px;
+    align-self: center;
+    background-repeat: repeat;
+    background-size: 100%;
+    transition: ease-in-out 0.5s;
+    background-position: center;
+    opacity: 1;
+}
+.servicesourcingbg{
+  background-image: url("../assets/hands.png");
+}
+.serviceitbg{
+  background-image: url("../assets/servicesit.png");
+}
+.servicepharmacobg{
+  background-image: url("../assets/serpharmacoviligence.jpg");
+}
+.serviceregulatoryaffairsbg{
+  background-image: url("../assets/serregulatory.png");
+}
+.serviceclinicaldevelopmentbg{
+  background-image: url("../assets/clinicaldoctorsser.png");
+}
+.card1:hover{
+
+    background-size: 110%;
+    border-radius: 0px;
+    opacity: 0.9;
+}
+
+.contcard {
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #e8f0f4;
+  }
+  .outer{
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+  }
+  @media(max-width:990px) {
+  
+     .card1{
+       width: 90vw;
+       height: 267px;
+       border-radius: 5px;
+       background-repeat: no-repeat;
+      }  
+      .outer{
+        margin: 5px 0px;
+      }
+
+  }
+  

@@ -1,0 +1,27 @@
+.minheightclinical{
+   min-height: 550px !important;
+}
+.clinicalinneruldiv ul{
+    padding-right: 10px;
+}
+.clinicalinneruldiv ul li{
+   line-height: 1.5em;
+   font-size: 20px;
+   font-weight: 500;
+   color: #333333;
+   text-align: left;
+   margin-bottom: 20px;
+}
+.minheightclinicalpageinner{
+    min-height: 1900px !important;
+}
+.clinicalupperbg{
+    background-image: url('../assets/clinicaldevelopmentupper.jpeg');
+}
+
+@media(max-width:990px) {
+    .clinicalresminheight{
+        min-height: 4900px;
+    }
+    
+}

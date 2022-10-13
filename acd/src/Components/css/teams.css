@@ -1,0 +1,27 @@
+.teamsrightin{
+    font-size: 21px;
+    
+}
+.leftheightofteams{
+    height: 100% !important;
+}
+.minheightofteams{
+   min-height: 650px !important;
+   
+}
+
+@media(max-width:990px) {
+    .minheightofteams{
+        min-height: 2200px !important;
+    }
+    .teamsheadingfirst h1{
+        font-size: 30px !important;
+    }
+    .minheightofcandidate{
+        min-height: 1200px;
+    }
+    .minheightofconsulting{
+        min-height: 800px;
+    }
+    
+}

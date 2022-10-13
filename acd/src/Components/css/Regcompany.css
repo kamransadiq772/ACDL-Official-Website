@@ -1,0 +1,60 @@
+.companyouter{
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.companyreg{
+    flex: 1;
+    padding: 60px 30px;
+}
+.companylonin{
+}
+.jbuploadouterof{
+    margin:30px auto;
+}
+.jbuploadouter{
+    max-width: 1200px !important;
+    margin: 100px auto;
+}
+.cprfilenav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.cprofileul{
+    display: flex;
+    list-style-type: none;
+    background: #deeff4a1;
+    border: 1px solid #dddfe3;
+    border-radius: 20px;
+}
+.cprofileul li{
+    margin: 10px;
+    text-decoration: none;    
+    font-family: 'Raleway';
+}
+.regnlink{
+    padding: 10px;
+    text-decoration: none !important;
+    color: #333333;
+    font-weight: bold;
+}
+.regnlink:hover{
+    color: #e99c35;
+}
+.dataindispaly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:990px){
+    .companyouter{
+        flex-direction: column;
+        
+    }
+    .regcompanybtnres{
+        font-size: 7px !important;
+    }
+}
